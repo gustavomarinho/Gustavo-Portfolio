@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "gus-font";
+  src: url("css/fonts/Aktiv Grotesk W01 Regular.tff") format("tff"),
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "gus-font", "Helvetica", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-column-rule: #111111;
+  -moz-column-rule: #111111;
+  column-rule: #111111;
+    background: #FEFFF9;
+}
+
+a:link 
+{ 
+text-decoration:none; 
+    color: #111111;
+} 
+
+.link {
+    color: #111111;
+}
+.container {
+  padding: 0 50px;
+}
+
+.header {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+}
+
+.podprime {
+  width: 1340px;
+  height: 600px;
+  background: url('./images/podprime.png');
+}
+
+
+.nsm {
+  width: 541px;
+  height: 600px;
+  background: url('./images/nsm.png');
+}
+
+
+.ink {
+  width: 769px;
+  height: 600px;
+  background: url('./images/ink.png');
+}
+
+
+.header ul li a {
+  margin-left: 40px;
+  color: #111111;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.current-link {
+  color: #B2B2B2 !important;
+}
+
+.header ul li:first-child {
+  margin-left: 0;
+}
+
+.logo {
+  font-size: 24px;
+  line-height: 28px;
+  color: #111111;
+}
+
+.summary {
+  margin-top: 80px;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.summary__avatar {
+  width: 480px;
+  height: 480px;
+}
+
+.summary__description {
+  margin-left: -53px;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: justify;
+}
+
+.summary__description:first-child {
+  margin-bottom: 40px;
+}
+
+.company__name {
+  font-size: 18px;
+  line-height: 29px;
+  margin-top: 24px;
+}
+
+.company__description {
+  color: #B2B2B2;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 2px;
+}
+
+.company__group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 180px;
+}
+
+.company__img--nsm {
+  width: 541px;
+  height: 600px;
+}
+
+.company__img--ink {
+  width: 769px;
+  height: 600px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.footer__brand {
+  color: #B2B2B2;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.footer__divider {
+  margin: 0 16px;
+
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer ul li {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.bio-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 80px 0;
+}
+
+.bio-summary h1 {
+  font-size: 64px;
+  line-height: 77px;
+  font-weight: bold;
+}
+
+.bio-summary p {
+  max-width: 655px;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.bio__description {
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 40px;
+}
+
+.bio__description:last-of-type {
+  margin-bottom: 120px;
+}
+
+
