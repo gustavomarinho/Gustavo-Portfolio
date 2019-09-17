@@ -95,10 +95,6 @@ color: #111111;
   align-items: center;
 }
 
-.summary__avatar {
-  width: 400px;
-  height: 400px;
-}
 
 .summary__description {
   margin-left: -53px;
